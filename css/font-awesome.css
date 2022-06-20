@@ -13,7 +13,9 @@
 }
 
 .fa {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
     text-rendering: auto;
@@ -804,12 +806,16 @@
 }
 
 .fa-twitter:before {
-    content: "\f099"
+    content: "\f099";
+    display: flex;
+    justify-content: center;
 }
 
 .fa-facebook-f:before,
 .fa-facebook:before {
-    content: "\f09a"
+    content: "\f09a";
+    display: flex;
+    justify-content: center;
 }
 
 .fa-github:before {
@@ -1580,7 +1586,9 @@
 }
 
 .fa-instagram:before {
-    content: "\f16d"
+    content: "\f16d";
+    display: flex;
+    justify-content: center;
 }
 
 .fa-flickr:before {
@@ -1640,7 +1648,9 @@
 }
 
 .fa-dribbble:before {
-    content: "\f17d"
+    content: "\f17d";
+    display: flex;
+    justify-content: center;
 }
 
 .fa-skype:before {
