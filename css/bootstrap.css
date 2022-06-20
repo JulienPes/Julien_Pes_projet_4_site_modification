@@ -8042,7 +8042,9 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    height: 100%;
+    width: 110px;
 }
 
 .pull-right {
